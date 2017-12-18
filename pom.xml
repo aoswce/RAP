@@ -205,7 +205,12 @@
                             <artifactId>${project.artifactId}</artifactId>
                             <type>war</type>
                             <properties>
-                                <context>/</context>
+                                <cargo.tomcat.manager.url>http://112.74.53.175:9991/manager</cargo.tomcat.manager.url>
+                                <cargo.remote.username>admin</cargo.remote.username>
+                                <cargo.remote.password>admin</cargo.remote.password>
+                                <cargo.servlet.port>9991</cargo.servlet.port>
+                                <cargo.hostname>112.74.53.175</cargo.hostname>
+                                <cargo.tomcat.ajp.port>8009</cargo.tomcat.ajp.port>
                             </properties>
                         </deployable>
                     </deployables>
